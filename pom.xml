@@ -6,7 +6,7 @@
 	<groupId>com.myproject</groupId>
 	<artifactId>spring-rest-angular</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>spring-rest-angular</name>
 	<description>Demo project for Spring Boot</description>
@@ -70,14 +70,10 @@
 	</dependencies>
 
 	<build>
-		<finalName>angular-spring-rest-sample</finalName>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
