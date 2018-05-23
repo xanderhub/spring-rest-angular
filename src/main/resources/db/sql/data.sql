@@ -45,3 +45,5 @@ INSERT INTO student (id,name,gender,age)
 VALUES (19,'Jenny', 'Female',24);
 INSERT INTO student (id,name,gender,age) 
 VALUES (20,'Kristine', 'Female',26);
+INSERT INTO student (id,name,gender,age)
+VALUES (21,'Alex', 'Male',26);
